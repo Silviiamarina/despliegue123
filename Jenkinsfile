@@ -38,7 +38,7 @@ pipeline {
                 sh '''
                     docker stop hola-mundo-node || true
                     docker rm hola-mundo-node || true
-                    docker run -d --name hola-mundo-node -p 3001:3000 hola-mundo-node:latest
+                    docker run -d --name hola-mundo-node -p 3001:3001 hola-mundo-node:latest
                 '''
             }
         }
