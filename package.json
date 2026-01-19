@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Mi aplicación Node.js",
   "main": "index.js",
-  "scripts":  {
-    "test": "npx jest",
+  "scripts": {
+    "test": "npx jest --ci --runInBand",   
     "lint": "npx eslint .",
     "start": "npx node index.js"
   },
